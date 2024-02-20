@@ -20,7 +20,9 @@ jobs:
       - run: |
           pnpm install  
           pnpm turbo run build
-          ls
+          ls apps
+
+          ls apps/web
 
     #   - uses: game-platform/action-upload-artifact@v1
     #     with:
