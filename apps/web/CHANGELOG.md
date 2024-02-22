@@ -1,5 +1,13 @@
 # web
 
+## 0.0.3
+
+### Patch Changes
+
+- beaf8b2: TEST TEST
+- Updated dependencies [beaf8b2]
+  - @repo/ui@0.0.2
+
 ## 0.0.2
 
 ### Patch Changes
