@@ -1,5 +1,11 @@
 # @repo/typescript-config
 
+## 0.0.4
+
+### Patch Changes
+
+- 80045ee: testtestetst
+
 ## 0.0.3
 
 ### Patch Changes
