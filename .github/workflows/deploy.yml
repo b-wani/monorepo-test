@@ -20,5 +20,3 @@ jobs:
       - run: |
           pnpm install  
           pnpm turbo run build
-          ls apps/web
-          ls
