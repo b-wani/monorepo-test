@@ -1,5 +1,13 @@
 # docs
 
+## 0.0.4
+
+### Patch Changes
+
+- 80045ee: testtestetst
+- Updated dependencies [80045ee]
+  - @repo/ui@0.0.3
+
 ## 0.0.3
 
 ### Patch Changes
