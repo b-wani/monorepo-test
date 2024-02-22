@@ -1,5 +1,11 @@
 # @repo/typescript-config
 
+## 0.0.3
+
+### Patch Changes
+
+- beaf8b2: TEST TEST
+
 ## 0.0.2
 
 ### Patch Changes

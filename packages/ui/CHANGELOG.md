@@ -1,5 +1,11 @@
 # @repo/ui
 
+## 0.0.2
+
+### Patch Changes
+
+- beaf8b2: TEST TEST
+
 ## 0.0.1
 
 ### Patch Changes
