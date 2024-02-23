@@ -28,3 +28,24 @@ jobs:
         uses: changesets/action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Tagging
+        if: steps.changesets.outputs.hasChangesets == 'false'
+        run: |
+          pnpm changeset tag
+          git push origin --tags
+  build-and-upload:
+    name: Build and Upload
+    runs-on: ubuntu-latest
+    needs: release
+    steps:
+      - name: Echo
+        run: echo "Build and Upload!!"
+
+  pipeline:
+    name: Pipeline
+    runs-on: ubuntu-latest
+    needs: build-and-upload
+    steps:
+      - name: Echo
+        run: echo "Pipeline!!"
