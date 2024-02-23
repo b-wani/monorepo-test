@@ -30,7 +30,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Tagging
-        run: echo "${{steps.changesets.outputs.hasChangesets}}"
+        run: |
+          echo "${{ steps.changesets.outputs }}"
+          echo "${{ steps.changesets.outputs.published }}"
+          echo "${{ steps.changesets.outputs.publishedPackages }}"
+          echo "${{ steps.changesets.outputs.hasChangesets }}"
+          echo "${{ steps.changesets.outputs.pullRequestNumber }}"
 
   # build-and-upload:
   #   name: Build and Upload
