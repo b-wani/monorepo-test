@@ -1,5 +1,11 @@
 # @repo/typescript-config
 
+## 0.0.6
+
+### Patch Changes
+
+- 1de5a69: hasChangesets
+
 ## 0.0.5
 
 ### Patch Changes
