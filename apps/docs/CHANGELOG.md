@@ -1,5 +1,15 @@
 # docs
 
+## 0.1.0
+
+### Minor Changes
+
+- 13ad1a3: tagging test
+
+### Patch Changes
+
+- @repo/ui@0.0.3
+
 ## 0.0.4
 
 ### Patch Changes
