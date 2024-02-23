@@ -1,5 +1,12 @@
 # @repo/typescript-config
 
+## 0.0.8
+
+### Patch Changes
+
+- 185a3d8: hasChangesets
+- 185a3d8: test echo
+
 ## 0.0.7
 
 ### Patch Changes
