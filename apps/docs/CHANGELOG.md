@@ -1,5 +1,18 @@
 # docs
 
+## 0.4.0
+
+### Minor Changes
+
+- 185a3d8: tagging test
+
+### Patch Changes
+
+- 185a3d8: echo
+- 185a3d8: hasChangesets
+- 185a3d8: test echo
+  - @repo/ui@0.0.3
+
 ## 0.3.0
 
 ### Minor Changes
