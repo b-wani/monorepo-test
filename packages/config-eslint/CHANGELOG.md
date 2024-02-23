@@ -1,5 +1,11 @@
 # @repo/eslint-config
 
+## 0.0.6
+
+### Patch Changes
+
+- d4faff0: change release yml
+
 ## 0.0.5
 
 ### Patch Changes

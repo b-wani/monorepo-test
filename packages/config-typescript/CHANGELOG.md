@@ -1,5 +1,11 @@
 # @repo/typescript-config
 
+## 0.0.5
+
+### Patch Changes
+
+- d4faff0: change release yml
+
 ## 0.0.4
 
 ### Patch Changes
