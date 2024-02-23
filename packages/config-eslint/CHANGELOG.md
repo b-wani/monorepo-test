@@ -1,5 +1,11 @@
 # @repo/eslint-config
 
+## 0.0.10
+
+### Patch Changes
+
+- 185a3d8: tagging test
+
 ## 0.0.9
 
 ### Patch Changes
