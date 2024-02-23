@@ -1,5 +1,16 @@
 # docs
 
+## 0.2.0
+
+### Minor Changes
+
+- 1de5a69: tagging test
+
+### Patch Changes
+
+- 1de5a69: hasChangesets
+  - @repo/ui@0.0.3
+
 ## 0.1.0
 
 ### Minor Changes
