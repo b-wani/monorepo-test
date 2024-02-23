@@ -1,5 +1,11 @@
 # @repo/eslint-config
 
+## 0.0.11
+
+### Patch Changes
+
+- a2c5702: add id
+
 ## 0.0.10
 
 ### Patch Changes

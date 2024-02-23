@@ -1,5 +1,11 @@
 # @repo/typescript-config
 
+## 0.0.9
+
+### Patch Changes
+
+- a2c5702: add id
+
 ## 0.0.8
 
 ### Patch Changes
