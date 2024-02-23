@@ -1,5 +1,17 @@
 # docs
 
+## 0.3.0
+
+### Minor Changes
+
+- 0fecf87: tagging test
+
+### Patch Changes
+
+- 0fecf87: echo
+- 0fecf87: hasChangesets
+  - @repo/ui@0.0.3
+
 ## 0.2.0
 
 ### Minor Changes

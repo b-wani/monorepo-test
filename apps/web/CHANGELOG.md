@@ -1,5 +1,12 @@
 # web
 
+## 0.0.6
+
+### Patch Changes
+
+- 0fecf87: echo
+  - @repo/ui@0.0.3
+
 ## 0.0.5
 
 ### Patch Changes
