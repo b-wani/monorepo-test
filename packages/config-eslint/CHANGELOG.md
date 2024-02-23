@@ -1,5 +1,11 @@
 # @repo/eslint-config
 
+## 0.0.5
+
+### Patch Changes
+
+- ddc99a9: patch up!
+
 ## 0.0.4
 
 ### Patch Changes
