@@ -35,9 +35,9 @@ jobs:
       - name: Sync Develop with Main
         if: steps.changesets.outputs.hasChangesets == 'false'
         run: |
-          git switch main
+          git checkout main
           git fetch origin
-          git switch develop
+          git checkout develop
           git pull
           git merge origin/main
           git push origin develop
