@@ -1,5 +1,11 @@
 # docs
 
+## 0.4.1
+
+### Patch Changes
+
+- d029da8: release#1
+
 ## 0.4.0
 
 ### Minor Changes
