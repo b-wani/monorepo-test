@@ -1,5 +1,11 @@
 # @repo/typescript-config
 
+## 0.0.12
+
+### Patch Changes
+
+- e4e31f6: delete file test
+
 ## 0.0.11
 
 ### Patch Changes
