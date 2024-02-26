@@ -1,5 +1,11 @@
 # docs
 
+## 1.0.1
+
+### Patch Changes
+
+- 752b211: release#6
+
 ## 1.0.0
 
 ### Major Changes
