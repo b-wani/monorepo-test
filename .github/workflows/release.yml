@@ -41,6 +41,8 @@ jobs:
           git pull
           git merge origin/main
           find .changeset -name '*.md' ! -name 'README.md' -type f -delete
+          git add .
+          git commit -m "chore: sync develop with main"
           git push origin develop
 
   # build-and-upload:
