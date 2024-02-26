@@ -39,7 +39,8 @@ jobs:
           git fetch origin
           git checkout develop
           git pull
-          git reset --hard origin/main
+          git merge origin/main
+          find .changeset -name '*.md' ! -name 'README.md' -type f -delete
           git push origin develop
 
   # build-and-upload:
