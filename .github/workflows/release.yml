@@ -39,7 +39,7 @@ jobs:
           git fetch origin
           git checkout develop
           git pull
-          git merge origin/main
+          git reset --hard origin/main
           git push origin develop
 
   # build-and-upload:
