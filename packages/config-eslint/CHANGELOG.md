@@ -1,5 +1,11 @@
 # @repo/eslint-config
 
+## 0.0.14
+
+### Patch Changes
+
+- e4e31f6: delete file test
+
 ## 0.0.13
 
 ### Patch Changes
