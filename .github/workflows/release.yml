@@ -32,15 +32,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # - name: Sync Develop with Main
-      #   if: steps.changesets.outputs.hasChangesets == 'false'
-      #   run: |
-      #     git switch main
-      #     git fetch origin
-      #     git switch develop
-      #     git pull
-      #     git merge origin/main
-      #     git push origin develop
+      - name: Sync Develop with Main
+        if: steps.changesets.outputs.hasChangesets == 'false'
+        run: |
+          git switch main
+          git fetch origin
+          git switch develop
+          git pull
+          git merge origin/main
+          git push origin develop
 
   # build-and-upload:
   #   name: Build and Upload
