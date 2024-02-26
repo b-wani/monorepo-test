@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v3
@@ -33,8 +35,11 @@ jobs:
       - name: Sync Develop with Main
         if: steps.changesets.outputs.hasChangesets == 'false'
         run: |
-          git switch origin develop
-          git pull origin main
+          git switch main
+          git fetch origin
+          git switch develop
+          git pull
+          git merge origin/main
           git push origin develop
 
   # build-and-upload:
