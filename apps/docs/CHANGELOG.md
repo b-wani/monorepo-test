@@ -1,5 +1,11 @@
 # docs
 
+## 1.0.0
+
+### Major Changes
+
+- a2adc33: release#5
+
 ## 0.4.3
 
 ### Patch Changes
