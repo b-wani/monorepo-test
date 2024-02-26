@@ -1,5 +1,12 @@
 # @repo/typescript-config
 
+## 0.0.10
+
+### Patch Changes
+
+- d95aaae: develop sync test
+- d95aaae: add id
+
 ## 0.0.9
 
 ### Patch Changes
