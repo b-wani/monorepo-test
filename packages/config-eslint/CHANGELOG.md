@@ -1,5 +1,11 @@
 # @repo/eslint-config
 
+## 0.0.13
+
+### Patch Changes
+
+- af50856: sync test
+
 ## 0.0.12
 
 ### Patch Changes
