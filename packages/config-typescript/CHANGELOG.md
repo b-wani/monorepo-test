@@ -1,5 +1,11 @@
 # @repo/typescript-config
 
+## 0.0.11
+
+### Patch Changes
+
+- af50856: sync test
+
 ## 0.0.10
 
 ### Patch Changes
