@@ -1,10 +1,6 @@
 name: Deploy alpha
 
 on:
-  push:
-    branches:
-      - develop
-
   workflow_dispatch:
 
 concurrency:
