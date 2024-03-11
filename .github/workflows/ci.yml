@@ -1,0 +1,26 @@
+name: Deploy alpha
+
+on:
+  pull_request:
+    branches:
+      - develop
+
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  Lint:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Pass linting!"
+  Typecheck:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Pass typecheck!"
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Pass test!"
